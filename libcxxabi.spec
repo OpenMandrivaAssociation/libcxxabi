@@ -8,6 +8,7 @@ URL:		http://libcxxabi.llvm.org/
 Source0:	http://llvm.org/releases/%{name}/%{name}-%{version}.src.tar.xz
 BuildRequires:	cmake
 BuildRequires:	clang
+BuildRequires:	llvm-devel
 
 %track
 prog %{name} = {
