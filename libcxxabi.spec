@@ -21,7 +21,7 @@ libc++abi is a new implementation of low level
 support for a standard C++ library.
 
 %prep
-%setup -q
+%setup -qn %{name}-%{version}.src
 
 %build
 %cmake
