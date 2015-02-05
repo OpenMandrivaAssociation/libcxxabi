@@ -6,9 +6,9 @@ License:	MIT
 Group:		System/Libraries
 URL:		http://libcxxabi.llvm.org/
 Source0:	http://llvm.org/releases/%{name}/%{name}-%{version}.src.tar.xz
-BuildRequires:	cmake
-BuildRequires:	clang
-BuildRequires:	llvm-devel
+#BuildRequires:	cmake
+#BuildRequires:	clang
+#BuildRequires:	llvm-devel
 
 %track
 prog %{name} = {
@@ -25,8 +25,9 @@ support for a standard C++ library.
 %setup -qn %{name}-%{version}.src
 
 %build
-%cmake
-%make
+pushd lib
+./buildit
+popd
 
 %install
 %makeinstall_std
