@@ -1,7 +1,7 @@
 Summary:	C++ Standard Library
 Name:		libcxxabi
 Version:	3.5.1
-Release:	1
+Release:	2
 License:	MIT
 Group:		System/Libraries
 URL:		http://libcxxabi.llvm.org/
