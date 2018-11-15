@@ -10,13 +10,6 @@ BuildRequires:	cmake
 BuildRequires:	clang
 BuildRequires:	llvm-devel
 
-%track
-prog %{name} = {
-	url = http://llvm.org/releases/%{version}/
-	regex = "%{name}-(__VER__)\.tar\.xz"
-	version = %{version}
-}
-
 %description
 libc++abi is a new implementation of low level
 support for a standard C++ library.
