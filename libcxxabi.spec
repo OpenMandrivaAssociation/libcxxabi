@@ -4,7 +4,7 @@ Version:	3.5.1
 Release:	3
 License:	MIT
 Group:		System/Libraries
-URL:		http://libcxxabi.llvm.org/
+URL:		https://libcxxabi.llvm.org/
 Source0:	http://llvm.org/releases/%{name}/%{name}-%{version}.src.tar.xz
 BuildRequires:	cmake
 BuildRequires:	clang
